@@ -47,6 +47,10 @@ public class OfferPageStepDefinition {
         testContextSetup.genericUtils.SwitchWindowToChild();
         System.out.println("Iam in OfferPageStepDefinition");
         System.out.println("Iam in OfferPageStepDefinition2");
+
+
+        System.out.println("Iam in OfferPageStepDefinition");
+        System.out.println("Iam in OfferPageStepDefinition2");
     }
 
     @Then("validate product name Offers page matched with Landing page")
