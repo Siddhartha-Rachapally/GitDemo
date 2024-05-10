@@ -37,6 +37,9 @@ public class LandingPageStepDefinition {
         Thread.sleep(2000);
         testContextSetup.landingPageProductName = landingpage.getProductName().split("-")[0].trim();
         System.out.println(testContextSetup.landingPageProductName + " extracted from home page");
+        System.out.println("Iam in LandingPageStepDefinition");
+        System.out.println("Iam in LandingPageStepDefinition1");
+        System.out.println("Iam in LandingPageStepDefinition2");
 
 
     }
